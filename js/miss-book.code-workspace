@@ -1,0 +1,13 @@
+{
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "missBook"
+    },
+    "folders": [
+        {
+            "path": "/Users/hila/Dropbox/CaSep19-Materials/Day38-Vue3/proj-vue3"
+        },
+        {
+            "path": "/Users/hila/Documents/Coding/missBook"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+body {
+    background-image: url('/img/books-bg.jpg');
+    background-repeat: repeat-y;
+    /* background-size: 100vw; */
+}
+
+a {
+    cursor: pointer;
+}
+
+h2 {
+    background-color: #ffffff75;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container {
+    background-color: #ffffff85;
+}
+.form {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.form-container {
+    background-color: #ffffff85;
+    padding: 20px;
+    text-align: center;
+    width:300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.max-price {
+    width: 200px;
+}
+
+.book-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    width: 200px;
+    height: 400px;
+    background-color: #ffffffad;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.book-card img {
+    max-height: 250px;
+}
+
+.book-card h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    height: 2rem;
+}
+
+.book-details-container {
+    text-align: center;
+}
